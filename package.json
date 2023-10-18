@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "lint": "tsc",
-    "sky": "xstate sky \"./src/**/*.ts?(x)\""
+    "sky": "xstate sky --refetch \"./src/**/*.ts?(x)\""
   },
   "dependencies": {
     "@statelyai/sky": "0.0.4",
